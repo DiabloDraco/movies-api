@@ -2,7 +2,7 @@ let elInput = document.querySelector("#input")
 
 elInput.addEventListener("input" , function (evt) {
     let input = elInput.value.trim()
-    fetch(`https://www.omdbapi.com/?s=${input}&apikey=3c34912c&page=2`)
+    fetch(`https://www.omdbapi.com/?s=${input}&apikey=3c34912c&page=all`)
     .then(res => res.json())
     .then(data => render(data))
 
