@@ -1,0 +1,9 @@
+body {
+    background-color: blueviolet;
+}
+
+p , h2 {
+    color: burlywood;
+    text-align: center;
+    width: 300px;
+}
